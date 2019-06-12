@@ -1,7 +1,8 @@
 package ch04;
 
 public class exam04_2 {
-	 public static void main(String[] args) {
+	 public static void main(String[] args) {   
+		 
 		 int score = 22;
 		 // 코드 작성
 //		 if (_score % 2 == 0) { //2의 배수인 경우
