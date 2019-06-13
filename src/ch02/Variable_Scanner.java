@@ -6,7 +6,7 @@ public class Variable_Scanner {
 	public static void main(String[] args) {
 		//ctrl + F11 : 클래스 실행
 		//라이브러리 ,library
-		Scanner s = new Scanner(System.in );
+		Scanner s = new Scanner(System.in);
 		System.out.println( "숫자를 입력해주세요.");
 		
 		//숫자 입력

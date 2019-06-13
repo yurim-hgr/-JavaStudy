@@ -14,6 +14,9 @@ public class ArrayExam4 {
 
 		}
 		System.out.println(numbers);
+		
 	}
 
 }
+
+

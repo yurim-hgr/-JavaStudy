@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class Baseball {
 	public static void main(String[] args) {
+		
 		Number n = new Number();
 		int number = n.get();
 

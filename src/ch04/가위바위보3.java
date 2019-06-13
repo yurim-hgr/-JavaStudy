@@ -8,10 +8,7 @@ public class 가위바위보3 {
 		Scanner s = new Scanner(System.in);
 		boolean b = true;
 
-		while (b) {
-
-			// 가위 0 바위 1 보 2
-
+		while (b) {// 가위 0 바위 1 보 2
 			int 나 = s.nextInt();
 
 			double ran = Math.random() * 3;// 0.0-2.999

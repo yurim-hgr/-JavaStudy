@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class exam03_6 {
 public static void main(String[] args) {
+	
 	  Scanner scanner = new Scanner(System.in);        
 	  System.out.print("2자리수 정수 입력(10~99)>>");         
 	  
@@ -12,7 +13,7 @@ public static void main(String[] args) {
       int ten; // 10의 자리 수를 저장할 변수         
       int one; // 1의 자리 수를 저장할 변수 
 
-      boolean isMatch = false; // 두 자리 수 비교 값을 저장할 변수 
+      boolean isMatch = false; // 두 자리 수 비교 값을 저장할 변수  - 초기화
 
       /* ten 변수에 10의 자리 수 대입 */        
       ten = n / 10;

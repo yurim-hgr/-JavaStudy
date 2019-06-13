@@ -15,6 +15,7 @@ public class 달력 {
 		System.out.println("" + year + month + day);
 
 		// 2. 날짜 지정하기
+		
 		cal.set(2012, 2, 27);
 		
 		year = cal.get(Calendar.YEAR);

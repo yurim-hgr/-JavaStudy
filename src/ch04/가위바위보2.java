@@ -17,10 +17,10 @@ public static void main(String[] args) {
 	double ran = Math.random() *3; //0.0 ~ 2.999
 			
 	// 방법 2 Random
-	Random random = new Random();
-	int ran2 = random.nextInt(3); // 0~2
+//	Random random = new Random();
+//	int ran2 = random.nextInt(3); // 0~2
 	
-	int 상대방 = 1;//바위
+	int 상대방 = (int)ran;//바위
 	
 	System.out.println("상대방이 낸숫자 : " + 상대방);
 	if(나 + 1 == 상대방) { //내가 짐
