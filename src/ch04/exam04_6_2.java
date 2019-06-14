@@ -26,3 +26,4 @@ public class exam04_6_2 {
 		}
 	}
 }
+

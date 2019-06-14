@@ -13,4 +13,4 @@ public class ArrayExam3 {
 		}
 		System.out.println("ÃÖ¼Ò°ª : " + min);
 	}
-}
+} 

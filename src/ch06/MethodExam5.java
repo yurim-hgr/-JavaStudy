@@ -16,4 +16,4 @@ public class MethodExam5 {
 		nums1[1] = 999;
 		System.out.println(nums2[1]);//999
 	}
-}
+} 

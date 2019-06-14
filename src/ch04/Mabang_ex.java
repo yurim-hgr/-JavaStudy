@@ -4,7 +4,7 @@ public class Mabang_ex {
 	public static void main(String[] args) {
 		int n = 5;
 		int[][] mabang = new int[n][n];
-
+ 
 		// x : 세로축, y : 가로축
 		// 첫 좌표값 
 		int x = 0;
