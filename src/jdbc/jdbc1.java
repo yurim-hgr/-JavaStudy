@@ -21,8 +21,7 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 	//3.SQL 문장 실행 준비
 	String sql = "INSERT INTO MEMBER(ID,PW,NAME)";
 	sql = sql+ "VALUES(?,?,?)";
-	PreparedStatement stmt = con.prepareStatement(sql);
-	//stmt : statement 의 약자
+	PreparedStatement stmt = con.prepareStatement(sql);//stmt : statement 의 약자
 	//? 위치와 종류에 맞게 값 이력
 	stmt.setString(1, "abc");
 	stmt.setString(2, "123");
